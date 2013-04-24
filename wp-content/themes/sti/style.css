@@ -1,0 +1,673 @@
+/*
+Theme Name: STI
+Theme URI: http://ambushstudio.com
+Author: Ambush Studio
+Author URI: http://ambushstudio.com/
+Description: Soluciones Técnicas de Ingeniería - Web Site
+Version: 1.0
+License: Propietary License
+License URI: none
+Tags: sti, ingeniería
+Text Domain: sti-ingenieria
+*/
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Include Reset Sheet
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+@import url('css/reset.css');
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Include Typography Classes
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+@import url('css/typography.css');
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Include Utility Classes
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+@import url('css/utils.css');
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Include Spinner Classes
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+@import url('css/spinner.css');
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Include Transition Classes
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+@import url('css/transitions.css');
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Include Milkbox Classes
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+@import url('css/milkbox/milkbox.css');
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Main Theme Styling
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* General
+*/
+body {  
+  font-family: ChaletBook;
+  font-size: 14px;
+  background-color: #000;
+}
+
+#content-wrap {
+  margin: 0 auto;
+  width: 1020px;
+  background-color: #fff;
+}
+
+.more-link {  
+  background-color: #000;
+  font-size: 12px;
+  -webkit-text-stroke: 0.3px;
+  height: 20px;
+  width: 66px;
+  text-align: center;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+
+.page-bar {
+  height: 37px;
+  line-height: 37px;
+  padding-right: 26px;
+  padding-left: 20px;
+  font-size: 21px;
+  width: 934px;
+  padding-top: 3px;
+}
+
+.bar-menu-link {
+  font-size: 13px;
+  margin-top: -3px;
+  line-height: 40px;
+  height: 40px;
+}
+/* Header
+*/
+
+#header {
+  height: 180px;
+}
+
+#header-logo {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#header-navigation {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#link-container {
+  height: 144px;
+}
+
+.link-single {
+  height: 20px;
+  margin-bottom: 4px;
+  margin-top: 0px;
+  /*background-color: #aaa;*/
+}
+
+.link-border {
+  width: 20px;
+  height: 20px;
+}
+
+.link-txt {
+  padding-top: 3px;
+  margin-right: 5px;
+  height: 17px;
+  line-height: 17px;
+}
+
+.link-selector {
+  width: 5px;
+  height: 20px;
+  margin-left: 15px;
+  background-color: #000;
+}
+
+/*#main-navigation {
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+#link-wrapper {
+  margin-right: 5px;
+}
+
+#link-wrapper li,
+#link-borders div{
+  margin-bottom: 4px;  
+  vertical-align: middle;
+  height: 20px;
+}
+
+#link-borders {
+  width: 20px;  
+  margin-right: 20px;
+}
+
+#link-borders div{
+  margin-left: 15px;
+  text-align: right;
+  width: 5px;
+  background-color: #000;
+}
+
+#link-wrapper a {
+  height: 16px;
+  vertical-align: middle;
+  padding-top: 4px;
+}*/
+
+/* News-template
+*/
+
+#news-section{
+  width: 980px;
+  margin: 0 auto;
+}
+
+#news-bar {
+  height: 37px;
+  background-color: #000;
+  font-size: 21px;
+  line-height: 37px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+#news-arrow {
+  margin-top: 10px;
+  vertical-align: top;
+}
+.single-new {
+  margin-top: 20px;
+  height: 240px;
+}
+
+.news-thumb {
+  height: 220px;
+  width: 313px;
+}
+
+.news-info {
+  width: 647px;
+  height: 220px;
+  padding-left: 20px;
+}
+
+.news-header {
+  font-size: 24px;
+}
+
+.news-txt {
+  margin-top: 70px;
+  height: 110px;
+  width: 624px;
+  padding-right: 20px;
+  /*background-color: #eee;*/
+}
+
+.news-link {
+  margin-top: 200px;
+}
+
+hr {
+  margin: 0;
+  background-color: #000;
+}
+
+/* Archive 
+*/
+
+.archive-txt {
+  width: 274px;
+  height: 480px;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 20px;
+  /*background-color: #eee;*/
+  overflow: hidden;
+}
+.archive-container {
+  width: 1000px;
+  margin-left: 20px;
+}
+
+.archive-info {
+  height: 600px;
+}
+
+.archive-end {
+  height: 20px;
+}
+
+/* Archive Grid
+*/
+.item {
+  width: 313px;
+  height: 260px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.item-title {
+  margin-left: 60px;
+  width: 150px;
+}
+
+.item-image {
+  margin-top: 40px;
+}
+
+.item-border {
+  width: 20px;
+  height: 260px;
+}
+
+.item-link {
+  margin-left: 247px;
+  margin-top: 240px;
+}
+
+/* Projects single - page
+*/
+.single-container {
+  width: 1000px;
+  margin-left: 20px;
+}
+
+.left-info {
+  width: 314px;
+  margin-right: 20px;  
+  margin-top: 20px;
+}
+
+.single-data {  
+  height: 220px;
+  overflow: hidden;
+}
+
+.single-data-txt {  
+  height: 160px;
+  margin: 30px 20px;
+  overflow: hidden;
+  /*background-color: #111;*/
+}
+
+.single-data-txt strong{  
+  font-weight: 900;
+}
+
+.single-description {  
+  padding: 20px 20px;
+}
+
+.right-info {
+  width: 666px;
+}
+
+.single-item {
+  height: 220px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Home
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* links
+*/
+.home #homeSel{
+  margin-left: 0;
+  width: 20px;
+}
+
+.home #homeLink{
+  color: #005B82;
+}
+
+/* slide
+*/
+
+.loading{
+  visibility: hidden;
+}
+
+.one-display { 
+  display: none;
+}
+
+.shown-slide{
+  opacity: 1;
+}
+#featured-slide {
+  margin: 0 auto;
+  width: 980px;
+  height: 600px;
+}
+
+.image-overlay {
+  margin-left: 600px;
+  /*padding: top right bottom left*/
+  padding: 20px 20px 20px 20px;
+  width: 340px;
+  height: 75px;
+  text-align: right;
+  overflow: hidden;
+}
+
+.slide-txt {
+  overflow: hidden;
+  width: 340px;
+  height: 75px;
+}
+
+.image-caption {
+  text-align: right;
+  height: 37px;
+  font-size: 21px;
+  padding-right: 25px;
+  line-height: 37px;
+  background-color: #000;
+  vertical-align: middle;  
+  margin-top: 560px;
+  padding-top: 3px;
+  width: 955px;
+}
+
+#prev-arrow {
+  margin-left: 20px;
+  margin-top: 560px;
+}
+
+#next-arrow {
+  margin-left: 70px;
+  margin-top: 560px;
+}
+
+/* Projects showcase
+*/
+#projects-container {
+  height: 355px;
+  width: 1000px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.project-type {
+  width: 313px;  
+  margin-left: 20px;
+  height: 355px;
+}
+
+.extra-margin {
+  margin-left: 21px;
+}
+
+.thumb-container {
+  width: 313px;
+  height: 260px;
+}
+
+.thumb-title {
+  font-size: 24px;
+  margin-left: 32px;
+}
+
+.thumb-caption {
+  margin-top: 20px;
+  height: 55px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /*background-color: #eee;*/
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Nosotros
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* links
+*/
+.page-id-6 #nosotrosSel{
+  width: 20px;
+}
+
+.page-id-6 #nosotrosLink{
+  color: #005B82;
+}
+
+/* General
+*/
+#about-div {
+  width: 980px;
+  height: 580px;
+  margin: 0 auto;
+}
+
+#about-bar {
+  background-color: #000;
+}
+
+#about-image {
+  margin-left: 646px;
+}
+
+#about-txt {
+  margin-left: 20px;
+  width: 606px;
+  height: 500px;
+  /*background-color: #eee;*/
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Contacto
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* links
+*/
+.page-id-7 #contactoSel{
+  width: 20px;
+}
+
+.page-id-7 #contactoLink{
+  color: #005B82;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Vivienda
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* links
+*/
+.post-type-archive-vivienda #viviendaSel{
+  width: 20px;
+}
+
+.single-vivienda #viviendaLink{
+  color: #005B82;
+}
+.single-vivienda #viviendaSel{
+  width: 20px;
+}
+
+.post-type-archive-vivienda #viviendaLink{
+  color: #005B82;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Desarrollo
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* links
+*/
+.post-type-archive-desarrollo #desarrolloSel{
+  width: 20px;
+}
+
+.post-type-archive-desarrollo #desarrolloLink{
+  color: #005B82;
+}
+
+.single-desarrollo #desarrolloSel{
+  width: 20px;
+}
+
+.single-desarrollo #desarrolloLink{
+  color: #005B82;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Geotecnia
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* links
+*/
+.post-type-archive-geotecnia #geotecniaSel{
+  width: 20px;
+}
+
+.post-type-archive-geotecnia #geotecniaLink{
+  color: #005B82;
+}
+
+.single-geotecnia #geotecniaSel{
+  width: 20px;
+}
+
+.single-geotecnia #geotecniaLink{
+  color: #005B82;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Noticia
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* General
+*/
+#post-div {
+  width: 980px;
+  margin: 0 auto;
+}
+
+#post-bar {
+  padding-left: 30px;
+  padding-right: 0px;
+}
+
+#about-image {
+  margin-left: 646px;
+}
+
+#post-txt {
+  margin-left: 20px;
+  min-height: 220px;
+  width: 606px;
+  /*background-color: #eee;*/
+  margin-top: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#post-img {
+  margin-top: 20px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Contact Form
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#contact-image {
+  margin-left: 438px;
+}
+#contact-info {
+  margin-top: 40px;
+  width: 438px;
+  height: 520px;
+}
+#contact-container {
+  width: 398px;
+  height: 500px;
+  margin: 20px;
+}
+
+#contact-form {  
+  margin: 20px auto;
+}
+
+.contact-txt {    
+  font-size: 16px;
+}
+
+#contact-txt-content {
+  height: 153px;
+  width: 398px;
+}
+
+.contact-btn {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  background-color: #000;
+  color: #fff;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: 0px;  
+  border: 2px solid #000;
+  width: 398px;
+}
+
+
+.contact-field {
+/*  width: 390px;
+  padding: 3px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  border-width: 1px;
+  font-size: 14px;
+  border: 1px solid #C8C8C8;*/
+  width: 390px;
+  color: ##000000;
+  font-size: 14px;
+  border: 1px solid #C8C8C8;
+  padding: 3px;
+  margin-top: 0px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-lbl {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.contact-field:hover {
+  border: 1px solid #000;
+}
+
+#comment {
+  height: 150px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Ambush AD
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+ #ad-ambush {
+  width: 1004px;
+  padding: 10px 20px 10px 0;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+#ad-ambush a{
+  color: #fff;
+}

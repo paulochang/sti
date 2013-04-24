@@ -1,0 +1,46 @@
+/* 
+    Document   : typography
+    Created on : 16-dic-2012, 22:29:10
+    Author     : pablo
+    Description:
+        CSS Font Face Definitions.
+*/
+
+
+@font-face {
+  font-family: ChaletBook;
+  src: url('../fonts/ChaletBook-Bold.eot');
+  src: url('../fonts/ChaletBook-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ChaletBook-Bold.otf') format('opentype'),
+    url('../fonts/ChaletBook-Bold.woff') format('woff'),
+    url('../fonts/ChaletBook-Bold.svg#ChaletBook-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ChaletBook-regular;
+  src: url('../fonts/ChaletBook.eot');
+  src: url('../fonts/ChaletBook.woff') format('woff'), url('../fonts/ChaletBook.ttf') format('truetype'), url('../fonts/ChaletBook.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ChaletBook {
+  font-family: ChaletBook;  
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
+}
+
+.arial {
+  font-family: Arial;  
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
+
+}
+
+.ChaletBook-regular {
+  font-family: ChaletBook-regular;  
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
+}
